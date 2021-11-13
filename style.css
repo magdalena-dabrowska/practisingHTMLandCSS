@@ -1,0 +1,120 @@
+body{
+  background-color: azure;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.header-title{
+  width: 100%;
+  border-bottom: 3px solid black;
+  
+}
+
+.brand{
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  font-weight: normal;
+  margin: 60px 0;
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  border-bottom: 3px solid black;
+  border-left: 1px solid black;
+
+}
+
+.story-image{
+  width: 100%;
+}
+
+.story{
+  padding: 0 5px;
+  border-right: 1px solid black;
+}
+
+.quarter{
+  width: 25%;
+  
+}
+
+.half{
+  width: 50%;
+  
+}
+
+.three-quarter{
+  width: 75%;
+  
+}
+
+.article-title{
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 30px 0;
+
+}
+
+.article-text{
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid black;
+
+}
+
+.nav-item{
+  flex: 1;
+  font-size: 26px;
+  font-weight: 700;
+  color: #555;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: #555;
+}
+
+.nav-item a:hover{
+  text-decoration: underline;
+  color: #555;
+}
+
+.site-section-politics{
+  background-color: #ffeaa7;
+}
+
+.site-section-technology{
+  background-color: #81ecec;
+}
+.site-section-local{
+  background-color: #55efc4;
+}
+.site-section-opinion{
+  background-color: #74b9ff;
+}
+.site-section-sports{
+  background-color: #a29bfe;
+}
+
+
+
